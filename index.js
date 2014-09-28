@@ -286,7 +286,7 @@ var DateUtil = {
    */
   parse: function(date) {
     if (typeof date === 'string') {
-      date = date.replace('\/', '-');
+      date = date.replace(/-/g, '/');
     }
     return dateParse(date);
   },

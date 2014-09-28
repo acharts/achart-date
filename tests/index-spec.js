@@ -1,4 +1,4 @@
-;
+
 
 var  expect = require('expect.js'),
     DateUtil = require('../index');
